@@ -18,27 +18,28 @@
                 Minha er Pitha ghar.
             </h2>
             <form>
-                <label for="name">Your name: </label> <br>
-                <input type="text" id="name" name="name" placeholder="Enter your first name" required>
-                <input type="text" id="name" name="name" placeholder="Enter your last name" required>
+                <fieldset class="basic-info">
+                    <legend>Basic Info</legend>
+                    <label for="name">Your name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+                    <input type="text" id="name" name="name" placeholder="Enter your last name" required>
+<br>
+                    <label for="email">Your Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-                <br>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="" placeholder="Enter your phone number" required>
 
-                <label for="email">Your Email: </label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                <br>
 
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" id="" placeholder="Enter your phone number" required>
-                <br>
+                    <label for="password">Your password: </label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-                <label for="password">Your password: </label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                <br>
-                <label for="confirm-password">Confirm your password: </label>
-                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password"
-                    required>
-                <br>
+                    <label for="confirm-password">Confirm your password: </label>
+                    <input type="password" id="confirm-password" name="confirm-password"
+                        placeholder="Confirm your password" required>
+
+                </fieldset>
+
                 <fieldset id="terms">
                     <legend>Terms your condition</legend>
                     <p>
@@ -92,6 +93,7 @@
                         placeholder="Write Something if have any suggestion"></textarea>
                 </fieldset>
                 <input type="button" value="Submit" onclick="alert('Form submitted!')">
+                <input type="reset" value="Reset" onclick="alert('Form reset!')">
                 <br>
             </form>
         </section>

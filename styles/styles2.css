@@ -8,3 +8,7 @@
 legend {
     border: 3px solid green;
 }
+
+form .basic-info label{
+    display: block; /* Ensure the fieldset is displayed as a block */
+}
