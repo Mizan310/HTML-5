@@ -14,3 +14,7 @@ img {
     width: 300px; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
 }
+footer {
+    text-align: center; 
+    
+}
