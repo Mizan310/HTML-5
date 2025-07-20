@@ -1,0 +1,16 @@
+nav li {
+    list-style: none;
+    display: inline; /* Display list items in a horizontal line */
+    margin-right: 15px; /* Space between items */
+}
+
+nav li:hover {
+    background-color: rgb(230, 107, 107); /* Change background on hover */
+}
+nav li a {
+    text-decoration: none;
+}
+img {
+    width: 300px; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
