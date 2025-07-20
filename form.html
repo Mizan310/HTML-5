@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitha ghar</title>
+    <link rel="stylesheet" href="styles/styles2.css">
 </head>
 
 <body>
@@ -41,7 +42,7 @@
                 <input type="button" value="Submit" onclick="alert('Form submitted!')">
                 <br>
             </form>
-            <fieldset>
+            <fieldset id="terms">
                 <legend>Terms your condition</legend>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum inventore ad temporibus aliquid
@@ -51,6 +52,37 @@
                     temporibus eum. Iste blanditiis maxime maiores minima perferendis et, incidunt doloribus fuga optio
                     ex, eos vitae alias!
                 </p>
+                <input type="radio" name="pitha" id="chitoi">
+                <label for="chitoi">Chitoi</label>
+                <br>
+                <input type="radio" name="pitha" id="Kolar pitha">
+                <label for="Kolar pitha">Kolar Pitha</label>
+                <br>
+                <input type="radio" name="pitha" id="Pati Shapta">
+                <label for="Pati Shapta">Pati Shapta</label>
+            </fieldset>
+            <fieldset>
+                <legend>Vorta</legend>
+                <input type="checkbox" name="vorta" id="shutki">
+                <label for="shutki">Shutki Vorta</label>
+                <br>
+                <input type="checkbox" name="vorta" id="beguni">
+                <label for="beguni">Begun Vorta</label>
+                <br>
+                <input type="checkbox" name="vorta" id="alu">
+                <label for="alu">Alu Vorta</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment Selection</legend>
+                <input type="checkbox" name="payment" id="bkash">
+                <label for="bkash">Bkash</label>
+                <br>
+                <input type="checkbox" name="payment" id="nagad">
+                <label for="nagad">Nagad</label>
+                <br>
+                <input type="checkbox" name="payment" id="rocket">
+                <label for="rocket">Rocket</label>
             </fieldset>
         </section>
     </main>
