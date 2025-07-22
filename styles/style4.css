@@ -1,0 +1,141 @@
+.flex-container div {
+    margin: 10px;
+    border: 2px solid tomato;
+    height: 100px;
+    font-size: 3em;
+    display: flex;
+    /* Enables flexbox layout */
+    justify-content: center;
+    /* Centers items horizontally */
+    align-items: center;
+    /* Centers items vertically */
+}
+
+.flex-container-1 div {
+    margin: 10px;
+    border: 2px solid tomato;
+    height: 100px;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    /* Centers items horizontally */
+    width: 200px;
+    /* Sets a fixed width for the flex container */
+    align-items: center;
+}
+
+.flex-container-1 {
+    display: flex;
+    gap: 50px;
+}
+
+.flex-container-2 div {
+    margin: 10px;
+    border: 2px solid tomato;
+    height: 200px;
+    font-size: 3em;
+    display: inline;
+    /* Uses inline display for flex items */
+    justify-content: center;
+    /* Centers items horizontally */
+}
+
+.flex-container-3 div {
+    margin: 10px;
+    border: 2px solid tomato;
+    height: 100px;
+    font-size: 3em;
+    display: inline-block;
+    /* Uses inline display for flex items */
+    justify-content: center;
+    /* Centers items horizontally */
+}
+
+.box {
+    font-size: 4em;
+    height: 150px;
+    width: 150px;
+    border: 2px solid slateblue;
+
+}
+
+.flex-container-4 {
+    display: flex;
+    gap: 50px;
+    /* Adds space between flex items */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.flex-container-4 .box{
+    display: flex;
+    gap: 50px;
+    /* Adds space between flex items */
+    justify-content: center;
+    align-items: center;
+}
+
+.user-container {
+    /* height: 200px;
+            width: 300px; */
+    display: flex;
+    /* Enables flexbox layout */
+    /* justify-content: center;  */
+    justify-content: space-between;
+    /* flex-wrap: wrap;  */
+    /* Allows items to wrap onto multiple lines */
+    gap: 20px;
+    /* Space between cards */
+}
+
+
+.user-container-1 {
+    margin: 10px 0;
+    /* height: 200px;
+            width: 300px; */
+    padding: 5px;
+    border: 2px solid tomato;
+    display: flex;
+    /* Enables flexbox layout */
+    /* justify-content: center;  */
+    justify-content: space-around;
+    /* flex-wrap: wrap;  */
+    /* Allows items to wrap onto multiple lines */
+    gap: 20px;
+    /* Space between cards */
+    /* align-items: center; */
+}
+
+.user {
+    font-size: 2em;
+    height: 200px;
+    width: 300px;
+    color: darkblue;
+    /* margin: 10px; */
+    border: 2px solid green;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap onto multiple lines */
+    justify-content: space-between;
+    /* Centers items horizontally */
+}
+
+.card-container-0 {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap onto multiple lines */
+    justify-content: center;
+    /* Centers items horizontally */
+}
+
+.card-container-1 {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap onto multiple lines */
+    gap: 20px;
+    /* Space between cards */
+}
