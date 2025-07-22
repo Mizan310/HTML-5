@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <!-- <link rel="stylesheet" href="styles/style3.css"> -->
+    <style>
+        table
+        {
+            border-collapse: collapse; /* Makes borders look cleaner */
+            /* width: 100%; Optional: makes the table take full width */
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px 20px; 
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h2>Friends</h2>
+        <table>
+            <caption>My Friend List</caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Fist Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mizanur</td>
+                    <td>Rahman</td>
+                    <td>25</td>
+                    <td scope="col" rowspan="1">Graduate</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rezaul</td>
+                    <td>Karim</td>
+                    <td>25</td>
+                    <td rowspan="3">Not Graduate</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Hasnat</td>
+                    <td>Shahriar</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sazzad</td>
+                    <td>Hossain</td>
+                    <td>25</td>
+                </tr>
+                
+            </tbody>
+
+
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="3">Average age</th>
+                    <td>25</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </main>
+    <section>
+        <h2>Table head</h2>
+        <ul>
+            <li>Table: table</li>
+            <li>table head: thead</li>
+            <li>table body: tbody</li>
+            <li>table foot: tfood</li>
+            <li>table row: tr</li>
+            <li>table data: td</li>
+            <li>table: th</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
