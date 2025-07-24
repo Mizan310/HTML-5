@@ -1,0 +1,51 @@
+body {
+    max-width: 1170px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid sandybrown;
+    background-color: #d44545;
+    border-radius: 24px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+    text-align: left;
+}
+.card:hover{
+    background-color: antiquewhite;
+}
+.card h3 {
+    font-size: 1.25em; 
+    font-weight: 700;
+}
+.card img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card-section {
+    text-align: center;
+}
+.card-container {
+    /* background-color: ; */
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap; /* Multi line */
+}
+.card-container button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-container button:hover {
+    background-color: #d44545; /* Darker blue on hover */
+    font-weight:bold;
+    /* text-decoration:underline; */
+}

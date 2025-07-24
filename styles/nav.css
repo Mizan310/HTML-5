@@ -1,0 +1,26 @@
+nav ul {
+    display: flex;
+    /* justify-content: center; */
+}
+nav li {
+    list-style: none;
+    margin: 0 20px; /* Space between navigation items */
+    padding: 5px 5px; /* Adds space between navigation items */
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+/* nav li a:hover {
+    color: #007BFF; } */
+    /* Change color on hover */ 
+nav li a:hover {
+    
+    text-decoration: underline; /* Underline on hover */
+    color: rgb(0, 0, 0); /* Change color on hover */
+    background-color: rgb(226, 113, 37); /* Change background color on hover */
+    border-radius: 5px;
+}

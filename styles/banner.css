@@ -1,0 +1,39 @@
+body {
+    max-width: 1270px;
+    background-color: bisque;
+    margin: 0 auto; /* Center the body content */
+}
+
+.hero-container {
+    display: flex;
+    gap: 40px; /* Space between items */
+    align-items: center; /* Center items vertically */
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 25px;
+    font-size: 25px;
+    /* 
+    height: 100vh;
+     */
+}
+
+.hero-container button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-container button:hover {
+    background-color: #000000; /* Darker blue on hover */
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.hero-container img {
+    height: 400px;
+    width: 100%;
+}
+
